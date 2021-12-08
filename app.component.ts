@@ -6,29 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  /*title = 'my-proj';
-  getName(name:string){
-    console.log(name);
-    return name;
+  title = 'my-app';
+  name="Anu";
+  getName(){
+    return "Alok"
   }
-  day="today";
-  names=[
-    'anu',
-    'chand',
-    'alok'
-
-  ]
-  
- switchValue= "";
- 
-day="today";
-textColor="gray";
-styleColor="newFont";
-textCol="red";
-bgColor="pink"
-*/
-dateExample=Date();
-
-
- }
-
+  arr=[1,2,3];
+  Person={
+    name:"amith"
+  }
+}

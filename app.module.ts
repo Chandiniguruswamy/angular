@@ -3,19 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FirstDirective } from './first.directive';
-import { NeedDataService } from './need-data.service';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FirstDirective
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [NeedDataService ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
